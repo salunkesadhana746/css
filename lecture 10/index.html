@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="task">
+        <div class="heading">
+            Dispaly:flex
+            <p>The CSS declaration display: flex is a value of the display property that enables the
+               Flexible Box Layout (Flexbox) model for an element and its direct children. </p>
+        </div>
+
+        <div class="output">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </div>
+    </section>
+
+   
+        <div class="heading heading1">
+            Dispaly:flex - wrap
+            <p>  The CSS flex-wrap property specifies whether flex items are forced onto a single line or can wrap onto multiple lines within their container
+                <br>
+                The flex-wrap property accepts three main values:
+                    <br>
+                     1.nonwrap
+                     <br>
+                     2.wrap
+                     <br>
+                     3.wrap-reverce
+            </p>
+        </div>
+
+         <section class="task">
+        <div class="heading">
+            Dispaly:flex- 1.nonwrap
+            <p>This is the default value. All flex items will be on a single line, even if they exceed the container's width, potentially causing overflow. </p>
+        </div>
+
+        <div class="output nonwrap">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+        
+        </div>
+    </section>
+     <section class="task">
+        <div class="heading">
+            Dispaly:flex- 2.wrap
+            <p>Allows flex items to wrap onto multiple lines if there isn't enough space in the primary axis (horizontal by default). New lines are stacked in the normal direction (top to bottom in a horizontal flow). </p>
+        </div>
+
+        <div class="output wrap">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            
+        </div>
+    </section>
+     <section class="task">
+        <div class="heading">
+            Dispaly:flex- 3.wrap-reverse
+          <p>Behaves similarly to wrap, but the lines are stacked in the reverse direction (bottom to top in a horizontal flow).</p>
+        </div>
+
+        <div class="output wrap-reverse">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            
+        </div>
+    </section>
+
+      <div class="heading heading2">
+           * Dispaly:flex - flex direction*
+            <p> The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+                <br>
+                The flex-direction property accepts four main values:
+                    <br>
+                     1.row
+                     <br>
+                     2.row-reverce
+                     <br>
+                     3.colum
+                    <br>
+                    4.colum-reverce
+            </p>
+        </div>
+
+          <section class="task">
+        <div class="heading">
+            Dispaly:flex- direction : 1.Row
+            <p>The flex container's main-axis is defined to be the same as the text direction. The main-start and main-end points are the same as the content direction.  </p>
+        </div>
+
+        <div class="output row">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+        
+        </div>
+    </section>
+          <section class="task">
+        <div class="heading">
+            Dispaly:flex- direction : 2.Row-reverce
+            <p>Behaves the same as row but the main-start and main-end points are opposite to the content direction.  </p>
+        </div>
+
+        <div class="output row-reverce">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+        
+        </div>
+    </section>
+          <section class="task">
+
+            <div class="heading">
+                Dispaly:flex- direction : 3.colum
+                <p>The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode. </p>
+           </div>
+       
+        <div class="output column">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            
+        
+        </div>
+    </section>
+          <section class="task">
+
+            <div class="heading">
+                Dispaly:flex- direction : 4.colum-reverce
+                <p> Behaves the same as column but the main-start and main-end are opposite to the content direction. </p>
+           </div>
+       
+        <div class="output column-reverce">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+        
+        </div>
+    </section>
+
+    <section class="">
+
+
+
+
+
+    </section>
+
+     
+
+
+   
+    
+</body>
+</html>

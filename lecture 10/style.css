@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.task{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(132, 253, 185);
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-size: 30px;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    text-align: center;
+
+}
+
+.heading p{
+    margin-top: 15px;
+    font-size: 22px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.output{
+    height: 350px;
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(157, 35, 250);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.heading1{
+    height: 200px;
+    width: 100%;
+    color: rgb(17, 13, 252);
+    margin-bottom: 20px;
+     background-color: rgb(252, 235, 107);
+}
+
+.heading2{
+    height: 230px;
+    width: 100%;
+    color: rgb(17, 13, 252);
+     margin-bottom: 20px;
+     background-color: rgb(250, 232, 93);
+}
+
+
+.nonwrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-reverce{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column-reverce{
+     flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+
+    
